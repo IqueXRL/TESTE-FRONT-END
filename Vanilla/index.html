@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESTE FRONT-END</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!--Menu - Navegação-->
+    <header class="menu-header">
+        <nav>
+            <div class="menu-burger" onclick="exibeDropdown()">
+                <div class="barrinha-burger"></div>
+                <div class="barrinha-burger"></div>
+                <div class="barrinha-burger"></div>
+            </div>
+            <p class="text-nav">Menu, Links, <strong>Todos os produtos</strong></p>
+        </nav>
+
+        <img class="logo-menu" src="images/logo.renovabe.png"/>
+
+        <div class="busca-com-cart">
+            <div class="busca">
+                <img class="lupa-pesquisa" src="images/lupa.webp"/>
+                <input class="input-menu"/>
+            </div>
+
+            <div class="cart">
+                <img class="icon-cart" src="images/carrinho.png"/>
+                <p>Carrinho</p>
+            </div>
+        </div>
+    </header>
+
+    <!--Banner-->
+    <div class="banner">
+        <h3 class="text-banner">Colágeno anti-idade para o corpo</h3>
+        <button class="compre-agora">Compre agora</button>
+    </div>
+
+    <!--Seção Abas-->
+    <div class="sec-abas">
+        <div class="tabela-nutricional">
+            <table>
+                <caption>Tabela Nutricional</caption>
+                <thead>
+                    <tr>
+                        <th>Componente</th>
+                        <th>Quantidade por Porção</th>
+                        <th>% VD*</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Valor Energético</td>
+                        <td>36 kcal</td>
+                        <td>2%</td>
+                    </tr>
+                    <tr>
+                        <td>Proteínas</td>
+                        <td>9 g</td>
+                        <td>12%</td>
+                    </tr>
+                    <tr>
+                        <td>Gorduras Totais</td>
+                        <td>0 g</td>
+                        <td>0%</td>
+                    </tr>
+                    <tr>
+                        <td>Gorduras Saturadas</td>
+                        <td>0 g</td>
+                        <td>0%</td>
+                    </tr>
+                    <tr>
+                        <td>Gorduras Trans</td>
+                        <td>0 g</td>
+                        <td>**</td>
+                    </tr>
+                    <tr>
+                        <td>Fibra Alimentar</td>
+                        <td>0 g</td>
+                        <td>0%</td>
+                    </tr>
+                    <tr>
+                        <td>Sódio</td>
+                        <td>0 mg</td>
+                        <td>0%</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>* % Valores Diários de referência com base em uma dieta de 2.000 kcal ou 8.400 kJ. Seus valores diários podem ser maiores ou menores dependendo de suas necessidades energéticas.</p>
+            <br>
+            <p>** VD não estabelecido.</p>
+        </div>
+
+        <div class="receita">
+            <img class="modo-de-uso" src="images/MODO-DE-USO..png" alt="Modo de uso">
+
+            <div class="imagem-sabor" src="images/pink-lemonade.jpg" alt="Sabor Pink Lemonade"></div>
+        </div>
+
+        <div class="sabores">
+            <button class="sabor pink-lemonade"> Pink Lemonade</button>
+            <button class="sabor cranberry">Cranberry</button>
+            <button class="sabor frutas-tropicais"> Frutas Tropicais</button>
+            <button class="sabor tangerina">Tangerina</button>
+            <button class="sabor limao">Limão</button>
+        </div>
+
+    </div>
+
+    <!--FAQ-->
+    <div class="faq-container">
+        <p class="title">FAQ</p>
+        <div id="faq"></div>
+    </div>
+    <footer>
+        <img src="images/logo.renovabe.png"/>
+    </footer>
+</body>
+</html>
